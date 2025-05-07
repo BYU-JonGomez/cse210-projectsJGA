@@ -10,6 +10,6 @@ class Program
         Console.Write("What is your last name? ");
         string lastName = Console.ReadLine(); // Read the last name from the console
         Console.WriteLine(); // Add an empty line
-        Console.WriteLine($"Your name is {lastName.capitalize}, {firstName} {lastName}."); // Print the full name to the console
+        Console.WriteLine($"Your name is {lastName}, {firstName} {lastName}."); // Print the full name to the console
     }
 }
